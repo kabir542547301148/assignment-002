@@ -70,6 +70,37 @@
 
   
   }
+  /* banner related style */
+  .banner{
+    max-width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .banner-title{
+    font-weight: 700;
+    font-size: 3.5rem;
+  }
+  .banner-description{
+    font-weight: 400;
+    font-size: 1.25;
+    
+  }
+  #orange{
+    color: orange;
+  }
+  #sky-blue{
+    color: skyblue;
+  }
+  .enroll-btn{
+    background-color: black;
+    color: #FFFFFF;
+    padding: 10px 47px 10px 47px;
+    border: none;
+    border-radius: 12px;
+  }
+
   /* responsive for small device */
   @media screen and (max-width: 576px){
     .hide{
