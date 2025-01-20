@@ -1,6 +1,84 @@
-h1{
-    color: blueviolet;
-}
-p{
-    background-color: blue;
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  /* navvar related style */
+  .hide{
+    display: none;
+  }
+  .nav-var{
+    max-width: 1160px;
+    margin: 0 auto;
+   
+
+  }
+  .nav-title{
+    font-weight: 700;
+    font-size: 1.5rem;
+
+    
+  }
+  
+  nav ul li{
+    list-style: none;
+  }
+  nav li a{
+    text-decoration: none;
+      
+  }
+  .btn-primary{
+    font-weight: 600;
+    font-size: 1.25rem;
+    background-color: orange;
+    color: #FFFFFF;
+    padding: 10px 60px 10px 60px;
+    border: none;
+    border-radius: 12px;
+  }
+  .nav-link{
+    font-weight: 700;
+    font-size: 1.25rem;
+  }
+  #nav-link-1{
+    color: orange;
+  }
+  #nav-link-2{
+    color: skyblue;
+  }
+  #nav-link-3{
+    color: #05D4DF;
+
+  }
+
+  #nav-link-4{
+    color: #5D58EF;
+
+  }
+
+    
+  
+  .nav-links{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  
+  }
+  /* responsive for small device */
+  @media screen and (max-width: 576px){
+    .hide{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .HIDE{
+        display: none;
+    }
+    
+  }
