@@ -211,6 +211,8 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+   
+    
     
   }
   .box-1{
@@ -228,8 +230,10 @@
     background-color: #3CD8E8;
     padding: 15px 19px;
     margin-left: 20px;
+    margin-top: -200px;
     border-radius: 48px;
   }
+  
   .stories-title-1{
     font-weight: 700;
     font-size: 1.5rem;
@@ -250,6 +254,7 @@
   .stories-btn-2{
     padding: 10px 18px;
     margin-left: 40px;
+    margin-top: -0px;
     color: white;
     background-color: #95B226;
     border-radius: 48px;
@@ -296,16 +301,22 @@
     font-weight: 700;
     font-size: 1.25rem;
     color: white;
-    margin: 0 auto;
-    padding: 10px 61px;
+   
+    padding: 10px 10px;
     border-radius: 12px;
     background-color: #000000;
    
   }
+  #view-button{
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    
+  }
   /* footer related style */
   .footer{
     max-width: 1440px;
-   margin: 0 auto;
+    margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -389,7 +400,23 @@
     }
     .footer{
       flex-direction: column;
-      text-align: center;
+      
+    }
+    .kids-title{
+      font-size: 2.5rem;
+    }
+    .stories-content{
+      gap: 5px;
+      max-width: 550px;
+    }
+    .box{
+      width: 200px;
+    }
+    .section-title{
+      font-size: 1.8rem;
+    }
+    .stories-content{
+      width: 100%;
     }
    
     
