@@ -171,6 +171,19 @@
     font-weight: 500;
     font-size: 1rem;
   }
+  .arrow-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .arrow{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: white;
+    background-color: orange;
+    border-radius: 30px;
+  }
 
 
 
@@ -204,6 +217,9 @@
     }
     .curriculum-description{
       font-size: 0.8rem;
+    }
+    .arrow-container{
+      display: none;
     }
     
    
