@@ -7,13 +7,24 @@
     font-weight: <weight>;
     font-style: normal;
   }
+  body{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .header{
+   
+  }
+  
   /* navvar related style */
   .hide{
     display: none;
   }
   .nav-var{
-    max-width: 1160px;
+    max-width: 1440px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
    
 
   }
@@ -67,12 +78,13 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 32px;
 
   
   }
   /* banner related style */
   .banner{
-    max-width: 1160px;
+    max-width: 1440px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -111,6 +123,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        border-bottom: 1px solid orange;
     }
     .HIDE{
         display: none;
@@ -122,6 +135,9 @@
         align-items: center;
         text-align: center;
 
+    }
+    .banner-title{
+      font-size: 2.2rem;
     }
     
    
