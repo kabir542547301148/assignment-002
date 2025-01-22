@@ -4,7 +4,7 @@
 .quicksand{
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 400;
     font-style: normal;
   }
   body{
@@ -13,6 +13,12 @@
   }
   .header{
    
+  }
+  .marque{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #05D4DF;
+    
   }
   
   /* navvar related style */
@@ -192,10 +198,17 @@
   .stories{
     max-width: 1440px;
     margin: 0 auto;
-    background-image: url(../assets/bg.png);
-    background: linear-gradient(to top right, #AA7B27, #FFFFFF);
+     background-image: url(../assets/bg.png);
+    /* background: linear-gradient(to bottom top,#FFFFFF ,#AA7B27 ); */
+    /* background-image: linear-gradient(bottom to top, steelblue 0%, darkslateblue 90%); */
+    background-image: linear-gradient(#FFFFFF, #AA7B27);  
    
     
+  }
+  .stories img{
+    /* border-radius-top: 48px; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
   }
   .stories-container{
    display: flex;
@@ -211,13 +224,13 @@
   .stories-content{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    border: 1px solid blue;
+    
     gap: 20px;
   }
   .box-1{
-    background-color: #e49595;
+    background-color: #FFFFFF;
     border-radius: 16px;
-   /* margin-right: 100px; */
+  
    
     
   }
@@ -232,6 +245,7 @@
     margin-left: 20px;
     margin-top: -30px;
    display: block;
+   border: none;
    z-index: 100;
    position: relative;
     border-radius: 48px;
@@ -250,7 +264,7 @@
     margin-left: 20px;
   }
   .box-2{
-    background-color: #b89191;
+    background-color: #FFFFFF;
     border-radius: 16px;
     
     
@@ -264,6 +278,7 @@
    position: relative;
     font-weight: 500;
     font-size: 1rem;
+    border: none;
     color: white;
     background-color: #95B226;
     border-radius: 20px;
@@ -274,7 +289,7 @@
     margin-left: 40px;
   }
   .box-3{
-    background-color: #b89191;
+    background-color: #FFFFFF;
     border-radius: 16px;
   }
   .stories-btn-3{
@@ -285,13 +300,14 @@
    z-index: 100;
    position: relative;
     color: white;
+    border: none;
     font-weight: 500;
     font-size: 1rem;
     background-color: #5D58F0;
     border-radius: 20px;
   }
   .box-4{
-    background-color: #b89191;
+    background-color: #FFFFFF;
     border-radius: 16px;
   }
   .stories-btn-4{
@@ -302,13 +318,14 @@
    z-index: 100;
    position: relative;
     color: white;
+    border: none;
     font-weight: 500;
     font-size: 1rem;
     background-color: #95B226;
     border-radius: 20px;
   }
   .box-5{
-    background-color: #b89191;
+    background-color: #FFFFFF;
     border-radius: 16px;
   }
   .stories-btn-5{
@@ -319,6 +336,7 @@
    z-index: 100;
    position: relative;
     color: white;
+    border: none;
     font-weight: 500;
     font-size: 1rem;
     background-color: #95B226;
