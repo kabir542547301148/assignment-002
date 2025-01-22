@@ -200,6 +200,7 @@
   .stories-container{
    display: flex;
    justify-content: center;
+   gap: 50px;
   }
   .our-title{
     font-weight: 700;
@@ -210,16 +211,14 @@
   .stories-content{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-   
+    border: 1px solid blue;
     gap: 20px;
-   
-    
-    
   }
   .box-1{
     background-color: #e49595;
     border-radius: 16px;
-   margin-right: 100px;
+   /* margin-right: 100px; */
+   
     
   }
   .stories-container img{
@@ -231,7 +230,10 @@
     background-color: #3CD8E8;
     padding: 15px 19px;
     margin-left: 20px;
-    margin-top: -200px;
+    margin-top: -30px;
+   display: block;
+   z-index: 100;
+   position: relative;
     border-radius: 48px;
   }
   
@@ -251,14 +253,20 @@
     background-color: #b89191;
     border-radius: 16px;
     
+    
   }
   .stories-btn-2{
-    padding: 10px 18px;
+    padding: 10px 10px;
     margin-left: 40px;
-    margin-top: -0px;
+   margin-top: -30px;
+   display: block;
+   z-index: 100;
+   position: relative;
+    font-weight: 500;
+    font-size: 1rem;
     color: white;
     background-color: #95B226;
-    border-radius: 48px;
+    border-radius: 20px;
   }
   .stories-description{
     font-weight: 700;
@@ -270,33 +278,51 @@
     border-radius: 16px;
   }
   .stories-btn-3{
-    padding: 10px 18px;
+    padding: 10px 10px;
     margin-left: 40px;
+    margin-top: -30px;
+   display: block;
+   z-index: 100;
+   position: relative;
     color: white;
+    font-weight: 500;
+    font-size: 1rem;
     background-color: #5D58F0;
-    border-radius: 48px;
+    border-radius: 20px;
   }
   .box-4{
     background-color: #b89191;
     border-radius: 16px;
   }
   .stories-btn-4{
-    padding: 10px 18px;
+    padding: 10px 10px;
     margin-left: 40px;
+    margin-top: -30px;
+   display: block;
+   z-index: 100;
+   position: relative;
     color: white;
+    font-weight: 500;
+    font-size: 1rem;
     background-color: #95B226;
-    border-radius: 48px;
+    border-radius: 20px;
   }
   .box-5{
     background-color: #b89191;
     border-radius: 16px;
   }
   .stories-btn-5{
-    padding: 10px 18px;
+    padding: 10px 10px;
     margin-left: 40px;
+    margin-top: -30px;
+   display: block;
+   z-index: 100;
+   position: relative;
     color: white;
+    font-weight: 500;
+    font-size: 1rem;
     background-color: #95B226;
-    border-radius: 48px;
+    border-radius: 20px;
   }
   .view-btn{
     font-weight: 700;
@@ -417,8 +443,16 @@
       font-size: 1.8rem;
     }
     .stories-content{
-      width: 100%;
+    max-width: 400px;
+    
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+      
+
+      
     }
+    
    
     
   }
